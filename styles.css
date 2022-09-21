@@ -30,5 +30,6 @@
     margin-bottom: 100px;
     width: 100%;
 }.im{
+    width: 250px;
     overflow: hidden;
 }
