@@ -5,9 +5,10 @@ let quo = [
     "You are the best thing in my life!",
     "Take my hand, make me yours!",
     "You showed me what love is.",
-    "Without You there is no Me!",
+    "Without You, there is no Me!",
     "You will always be mine.",
-    "Thank god, You are mine."
+    "Thank god, You are mine.",
+    "I'll never let you go.",
 ]
 
 function quote(){
