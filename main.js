@@ -1,7 +1,17 @@
-let a = document.getElementById("devu")
-let b = ("I'm falling into you deeper and deeper every day!")
-
+let devu = document.getElementById("devu")
+let love = document.getElementById("loveYou")
+let quo = [
+    "I'm falling into you deeper and deeper every day!",
+    "You are the best thing in my life!",
+    "Take my hand, make me yours!",
+    "You showed me what love is.",
+    "Without You there is no Me!",
+    "You will always be mine.",
+    "Thank god, You are mine."
+]
 
 function quote(){
-    a.textContent=b
+    var randomNumber=Math.floor(Math.random()*(quo.length))
+    devu.innerText=quo[randomNumber]
 }
+
