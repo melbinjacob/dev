@@ -12,7 +12,10 @@ let quo = [
 ]
 
 function quote(){
-    var randomNumber=Math.floor(Math.random()*(quo.length))
-    devu.innerText=quo[randomNumber]
+    var randomNumber=Math.floor(Math.random();
+    var numberPosition = randomNumber**(quo.length));
+    devu.innerText=quo[numberPosition];
+    console.log(randomNumber);
+    console.log(numberPosition);
 }
 
